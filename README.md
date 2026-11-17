@@ -55,7 +55,6 @@ answers questions from a set of internal policy PDFs. Read an example before you
 | [`tools/checklist_lint.py`](tools/checklist_lint.py) | Checks that every checklist item has a status and evidence |
 | [`tools/release_gate.py`](tools/release_gate.py) | Pass, fail or unsure from eval results, using a Wilson interval |
 | [`tools/check_links.py`](tools/check_links.py) | Checks that every relative link in the Markdown files resolves |
-| `tools/check_links.py` | Offline check of relative links in the Markdown files |
 
 ## Running the checks
 

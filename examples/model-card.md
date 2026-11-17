@@ -35,7 +35,7 @@
 ## Known limits and failure modes
 
 - Tables split across chunks can lose their header row; answers about table values are less reliable.
-- Questions that combine three or more documents fail more often (multi_hop 27/30).
+- Questions that combine three or more documents fail more often (multi_hop 26/30).
 - Policies updated in the last 24 hours may not be indexed yet.
 
 ## Safety
