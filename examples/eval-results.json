@@ -1,0 +1,852 @@
+{
+  "run_id": "eval-2026-03-02-01",
+  "golden_set_version": "v7",
+  "app_version": "a1b2c3d",
+  "prompt_version": "qa-v14",
+  "model_id": "model-large-2026-01-15",
+  "judge_model_id": "judge-model-b-2025-11-01",
+  "k": 3,
+  "threshold": 0.8,
+  "cases": [
+    {
+      "id": "q001",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q002",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q003",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q004",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 2,
+      "runs": 3
+    },
+    {
+      "id": "q005",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q006",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q007",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q008",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q009",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q010",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q011",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q012",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q013",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q014",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q015",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q016",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q017",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q018",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q019",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q020",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q021",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q022",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q023",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q024",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q025",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q026",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q027",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q028",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q029",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q030",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 2,
+      "runs": 3
+    },
+    {
+      "id": "q031",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q032",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q033",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q034",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q035",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q036",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q037",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q038",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q039",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q040",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q041",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q042",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q043",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q044",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q045",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q046",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q047",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q048",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q049",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q050",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q051",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q052",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q053",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q054",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q055",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q056",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q057",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q058",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q059",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q060",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q061",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q062",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q063",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q064",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q065",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q066",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q067",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q068",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q069",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q070",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q071",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q072",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q073",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q074",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q075",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q076",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q077",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q078",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q079",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q080",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q081",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q082",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q083",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q084",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q085",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q086",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q087",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q088",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q089",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q090",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q091",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 2,
+      "runs": 3
+    },
+    {
+      "id": "q092",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q093",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q094",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q095",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q096",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q097",
+      "tag": "lookup",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q098",
+      "tag": "multi_hop",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q099",
+      "tag": "no_answer",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q100",
+      "tag": "adversarial",
+      "split": "dev",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q101",
+      "tag": "lookup",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q102",
+      "tag": "multi_hop",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q103",
+      "tag": "no_answer",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q104",
+      "tag": "adversarial",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q105",
+      "tag": "lookup",
+      "split": "held_out",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q106",
+      "tag": "multi_hop",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q107",
+      "tag": "no_answer",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q108",
+      "tag": "adversarial",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q109",
+      "tag": "lookup",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q110",
+      "tag": "multi_hop",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q111",
+      "tag": "no_answer",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q112",
+      "tag": "adversarial",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q113",
+      "tag": "lookup",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q114",
+      "tag": "multi_hop",
+      "split": "held_out",
+      "passes": 1,
+      "runs": 3
+    },
+    {
+      "id": "q115",
+      "tag": "no_answer",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q116",
+      "tag": "adversarial",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q117",
+      "tag": "lookup",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q118",
+      "tag": "multi_hop",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q119",
+      "tag": "no_answer",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    },
+    {
+      "id": "q120",
+      "tag": "adversarial",
+      "split": "held_out",
+      "passes": 3,
+      "runs": 3
+    }
+  ]
+}
