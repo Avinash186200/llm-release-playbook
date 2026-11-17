@@ -16,10 +16,10 @@ Paired vs v13 (same 120 cases): only_v13 3, only_v14 12, sign test p = 0.035
 
 | Tag | v13 | v14 | Note |
 |-----|-----|-----|------|
-| lookup | 28/30 | 29/30 | within noise |
-| multi_hop | 24/30 | 27/30 | helped |
+| lookup | 28/30 | 28/30 | no change |
+| multi_hop | 24/30 | 26/30 | small gain |
 | no_answer | 24/30 | 28/30 | helped: fewer guesses |
-| adversarial | 26/30 | 27/30 | within noise |
+| adversarial | 26/30 | 29/30 | small gain |
 
 No tag group got worse.
 

@@ -1,10 +1,12 @@
 # LLM Release Playbook
 
+[![tests](https://github.com/Avinash186200/llm-release-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/Avinash186200/llm-release-playbook/actions/workflows/ci.yml)
+
 How I release an LLM application safely. This repo holds the standard, checklists, playbooks and templates I use
 when a model, a prompt, a retrieval change or a tool change goes to production.
 
-It is not a framework. It is a set of short documents you copy into your own repo and fill in, plus two small
-scripts that check the filled-in documents and the eval numbers.
+It is not a framework. It is a set of short documents you copy into your own repo and fill in, plus three small
+scripts that check the filled-in documents, the eval numbers and the links.
 
 ## Who it is for
 
@@ -39,19 +41,20 @@ answers questions from a set of internal policy PDFs. Read an example before you
 
 | Path | What it is |
 |------|------------|
-| `standards/release-standard.md` | Definition of done for an LLM feature |
-| `checklists/go-no-go.md` | Pre-release gate with sign-off fields |
-| `checklists/rollout.md` | Canary, staged, full, with abort criteria |
-| `playbooks/evaluation.md` | Golden sets, repeats, judges, statistics |
-| `playbooks/incident-response.md` | Hallucination spike, injection, cost blow-up, provider outage |
-| `specs/metrics-instrumentation.md` | What to log per request, event schemas, dashboards, alerts |
-| `templates/audit-round-brief.md` | Running a multi-reviewer audit |
-| `templates/review-checklist.md` | Senior review checks |
-| `templates/model-card.md` | Model card |
-| `templates/adr.md` | Architecture decision record |
-| `examples/` | Worked examples for a fictional document Q&A assistant |
-| `tools/checklist_lint.py` | Checks that every checklist item has a status and evidence |
-| `tools/release_gate.py` | Pass, fail or unsure from eval results, using a Wilson interval |
+| [`standards/release-standard.md`](standards/release-standard.md) | Definition of done for an LLM feature |
+| [`checklists/go-no-go.md`](checklists/go-no-go.md) | Pre-release gate with sign-off fields |
+| [`checklists/rollout.md`](checklists/rollout.md) | Canary, staged, full, with abort criteria |
+| [`playbooks/evaluation.md`](playbooks/evaluation.md) | Golden sets, repeats, judges, statistics |
+| [`playbooks/incident-response.md`](playbooks/incident-response.md) | Hallucination spike, injection, cost blow-up, provider outage |
+| [`specs/metrics-instrumentation.md`](specs/metrics-instrumentation.md) | What to log per request, event schemas, dashboards, alerts |
+| [`templates/audit-round-brief.md`](templates/audit-round-brief.md) | Running a multi-reviewer audit |
+| [`templates/review-checklist.md`](templates/review-checklist.md) | Senior review checks |
+| [`templates/model-card.md`](templates/model-card.md) | Model card |
+| [`templates/adr.md`](templates/adr.md) | Architecture decision record |
+| [`examples/`](examples/) | Worked examples for a fictional document Q&A assistant |
+| [`tools/checklist_lint.py`](tools/checklist_lint.py) | Checks that every checklist item has a status and evidence |
+| [`tools/release_gate.py`](tools/release_gate.py) | Pass, fail or unsure from eval results, using a Wilson interval |
+| [`tools/check_links.py`](tools/check_links.py) | Checks that every relative link in the Markdown files resolves |
 | `tools/check_links.py` | Offline check of relative links in the Markdown files |
 
 ## Running the checks
